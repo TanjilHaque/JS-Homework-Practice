@@ -1,0 +1,47 @@
+body {
+    background-color: #f9f9f9;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    background-color: white;
+    height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: inset;
+}
+
+.commonBtnStyle {
+    padding: 5px 10px;
+    border: none;
+    color: white;
+    transition: 0.5s ease;
+    cursor: pointer;
+    border-radius: 3px;
+    font-size: 12px;
+}
+
+.commonBtnStyle:hover {
+    font-size: 14px;
+}
+
+#decreaseBtn {
+    background-color: orangered;
+}
+
+#resetBtn {
+    background-color: orange;
+}
+
+#increaseBtn {
+    background-color: green;
+}
